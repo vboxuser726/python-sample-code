@@ -24,7 +24,7 @@ triggers {
         }
         stage('verification') {
             steps {
-                sh "curl 192.168.49.2:30303"
+                sh "curl 192.168.49.2:30110"
             }
         }
     }
